@@ -1,0 +1,56 @@
+
+.more-button {
+  width: 160px;
+  height: 30px;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  margin: 10px auto 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  color: #616161;
+  cursor: pointer;
+}
+.more-button.hover {
+  opacity: 0.8;
+}
+.dividing-line {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #a8a8a8;
+}
+.upcoming {
+  width: 65px;
+  height: 20px;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  color: #eee;
+  background-color: #a7a7a7;
+}
+.account-dialog .title {
+  display: none;
+}
+.account-dialog .messenger-box .wrapper {
+  border-radius: 5px;
+  padding: 10px 0;
+}
+.account-dialog .messenger-box .wrapper p {
+  margin: 20px 0;
+  color: #333;
+}
+.account-dialog .messenger-box .wrapper div {
+  border-top: 1px solid #dcdcdc;
+  padding-top: 10px;
+}
+.account-dialog .messenger-box .wrapper button {
+  flex: 1;
+  max-width: 100%;
+  background-color: transparent;
+  color: #ff8132;
+  line-height: 20px;
+}
